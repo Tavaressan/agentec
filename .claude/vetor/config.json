@@ -1,6 +1,6 @@
 {
   "maxConcurrentWorkers": 5,
-  "runtime": "unknown",
-  "packageManager": null,
-  "testCommand": ""
+  "runtime": "python",
+  "packageManager": "uv",
+  "testCommand": "uv run pytest"
 }

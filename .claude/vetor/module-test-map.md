@@ -1,6 +1,6 @@
 # Module Test Map — Auto-Gerado
 
-Gerado pela auto-detecção do Vetor (runtime: **unknown**).
+Gerado pela auto-detecção do Vetor (runtime: **python** / **uv**).
 Revise os comandos: eles são executados de forma headless pelo `fix-loop-agent` e pelo `worktree-ship`.
 
 ---
@@ -9,7 +9,7 @@ Revise os comandos: eles são executados de forma headless pelo `fix-loop-agent`
 
 | Módulo | Comando headless | Notas |
 |--------|------------------|-------|
-| `root` | `AJUSTE: comando de teste não detectado` | Módulo raiz |
+| `root` | `uv run pytest` | Monólito Python único (`hermes_academic`); os módulos lógicos das issues (domain, provider, data, mcp-server, agent-orchestrator, telegram-bot) compartilham a mesma suíte de testes em `tests/`. |
 
 ## Detecção de módulo por arquivos alterados
 
